@@ -1,0 +1,36 @@
+/* * {
+  border: red dashed 1px;
+} */
+
+body {
+  background-image:url("https://w0.peakpx.com/wallpaper/366/566/HD-wallpaper-android-l-abstract-design-google-lollipop-material.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 70px;
+}
+
+.imgCard {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.contactIcon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.list {
+  max-height: 300px; 
+  overflow-y: auto; 
+  overflow-x: hidden;
+}
+.metal {
+  height: 40px;
+  width: 20px;
+}
+.primaryCard {
+  height: 600px;
+  width: 600px;
+}
