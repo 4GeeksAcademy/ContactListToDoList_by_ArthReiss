@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { GlobalContext } from "../Services/GlobalContext";
+import { GlobalContext } from "../Services/GlobalProvider";
 import { logInContactList, logInToDoUser } from "../Services/ServicesAPI";
 import "../Styles/Home.css";
 

@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import "../Styles/Home.css";
-import { GlobalContext } from "../Services/GlobalContext.jsx";
+import { GlobalContext } from "../Services/GlobalProvider.jsx";
 import { addTask, deleteTask } from "../Services/ServicesAPI.jsx";
 
 const ToDoList = () => {

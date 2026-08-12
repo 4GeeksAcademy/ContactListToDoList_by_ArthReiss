@@ -1,12 +1,10 @@
-import { createContext, useReducer } from "react";
-
-const inicialState ={
+export const inicialState ={
     user: null,
     tasks: [],
     contacts: []
 };
 
-const globalReducer = (state, action) => {
+export const globalReducer = (state, action) => {
     switch(action.type) {
         case 'LOGIN_SUCCESS':
             return {
@@ -46,15 +44,3 @@ const globalReducer = (state, action) => {
                 return state
     }
 };
-
-export const GlobalContext = createContext();
-
-export const GlobalProvider = ({children}) => {
-    const [store, dispatch] = useReducer(globalReducer, inicialState);
-
-    return (
-        <GlobalContext.Provider value={{ store, dispatch }}>
-            {children}
-        </GlobalContext.Provider>
-    )
-}

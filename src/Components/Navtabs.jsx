@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import "../Styles/Home.css";
-import { GlobalContext } from "../Services/GlobalContext.jsx";
+import { GlobalContext } from "../Services/GlobalProvider.jsx";
 
 const Navtabs = ({ user }) => {
   const { store } = useContext(GlobalContext);

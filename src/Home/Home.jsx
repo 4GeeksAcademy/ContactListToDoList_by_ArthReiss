@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "../Styles/Home.css";
 import User from "../Components/User.jsx";
 import Navtabs from "../Components/Navtabs.jsx";
-import { GlobalContext } from "../Services/GlobalContext.jsx";
+import { GlobalContext } from "../Services/GlobalProvider.jsx";
 import ToDoList from "../Components/ToDoList.jsx";
 import ContactList from "../Components/ContactList.jsx";
 
