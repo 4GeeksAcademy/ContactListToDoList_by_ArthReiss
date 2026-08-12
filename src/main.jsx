@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./Styles/Home.css";
-import { GlobalProvider } from "./Services/Globalprovider.jsx";
+import { GlobalProvider } from "./Services/GlobalProvider.jsx";
 import { AppRoutes } from "./Services/Routes";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
